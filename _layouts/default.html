@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{ site.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+	</head>
+	<body class="{{ page.body_class }} is-preload">
+		<div id="page-wrapper">
+			{% include layout/header.html %}
+			{{ content }}
+			{% include layout/footer.html %}
+		</div>
+		<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/jquery.slidertron.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/util.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+	</body>
+</html>

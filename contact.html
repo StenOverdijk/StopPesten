@@ -1,0 +1,68 @@
+---
+layout: default
+title: Contact
+body_class: contact
+---
+
+<!-- Main -->
+<div id="main" class="container">
+
+  <div class="row gtr-200">
+
+    <!-- Content -->
+    <div class="col-8 col-12-narrower imp-narrower">
+      <article id="content">
+        <header>
+          <h2>Contact</h2>
+        </header>
+        <form method="post" action="#">
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-6 col-12-narrower">
+              <input class="text" type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="col-6 col-12-narrower">
+              <input class="text" type="text" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" placeholder="Message"></textarea>
+            </div>
+            <div class="col-12">
+              <ul class="actions">
+                <li><input type="submit" value="Send Message" class="button" /></li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </article>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-4 col-12-narrower">
+      <div id="sidebar">
+        <ul class="info">
+          <li>
+            <h3>Address</h3>
+            <p>
+              Untitled Incorporated<br />
+              1234 Somewhere Road Suite #5432<br />
+              Nashville, TN 00000-0000
+            </p>
+          </li>
+          <li>
+            <h3>Mail</h3>
+            <p><a href="#">someone@untitled.tld</a></p>
+          </li>
+          <li>
+            <h3>Phone</h3>
+            <p>(800) 000-0000</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Newsletter -->
+{% include newsletter.html %}
