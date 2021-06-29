@@ -10,10 +10,6 @@ markdown: kramdown
 sass:
   sass_dir: assets/sass
 
-# Exclude
-exclude:
-  - CNAME
-
 # Plugins
 plugins:
   - jekyll-feed
