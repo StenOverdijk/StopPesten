@@ -1,7 +1,7 @@
 # Site settings
 title: StopPesten
-url: "https://stenoverdijk.github.io/StopPesten" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: ""
+url: "https://stenoverdijk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/StopPesten"
 timezone: "Europe/Amsterdam"
 email: your-email@example.com
 
