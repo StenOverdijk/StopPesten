@@ -13,7 +13,3 @@ sass:
 # Plugins
 plugins:
   - jekyll-feed
-
-# Social
-github_username:  jekyll
-twitter_username: jekyllrb
