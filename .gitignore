@@ -1,6 +1,5 @@
 .DS_Store
 .vs
-.vs/
 _site
 .sass-cache
 .jekyll-cache
